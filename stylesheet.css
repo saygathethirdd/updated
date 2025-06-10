@@ -1,0 +1,108 @@
+
+h1{
+    color: aqua;
+    text-align:center;
+    width: 600px;
+    margin: auto;
+}
+p{
+    margin:auto;
+    width: 600px;
+}
+body{
+    background-color: rgb(1, 1, 32);
+    color:antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+fieldset{
+    margin: auto;
+    width:600px;
+
+    border: 1px solid rgb(0,127,255);
+}
+
+#why{background-color: rgb(10, 10, 10);
+    width: 50px;
+    text-align: start;
+    border: none;
+
+}
+button[type="submit"]{
+    background-color: blueviolet;
+    object-fit: cover;
+}
+nav ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+li{
+    margin: auto 80px;
+}
+header{
+    margin-top: 20px;;
+}
+.five{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.one{
+    margin:auto 180px;
+}
+.yes{
+    width:100vw;
+    text-align: start;
+}
+h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+html{
+    scroll-behavior: smooth;
+}
+#gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+img{
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    border: 1px solid rgb(0, 255, 64);
+    border-radius: 10px;
+    margin: 10px;
+}
+button{
+    background: linear-gradient(rgb(62, 62, 196), rgb(194, 54, 187), rgb(1, 250, 43));
+    
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation:bounce 2s ease-in-out infinite;
+}
+@keyframes bounce{
+    0%{transform: translateY(0);}
+    50%{transform: translateY(-30px);}
+    100%{transform: translateY(0);}
+}
+.body{
+    background-color: aquamarine;
+
+}
+@media(max width 600px){
+    nav{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.broo{
+    background:linear-gradient(rgb(71, 113, 128), rgb(70, 168, 70), rgb(66, 134, 134)) ;
+}
